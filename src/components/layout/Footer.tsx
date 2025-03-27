@@ -24,8 +24,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <p className="text-gray-200">Email: info@buildsmarttech.com</p>
-            <p className="text-gray-200">Phone: +1 (800) 123-4567</p>
+            <p className="text-gray-200">Email: info@bs-technology.net</p>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">

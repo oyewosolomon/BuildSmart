@@ -32,28 +32,17 @@ const ContactSection = () => {
   };
 
   const contactInfo = [
-    {
-      icon: <Phone className="w-6 h-6" />,
-      title: "Phone",
-      value: "+1 (800) 123-4567",
-      link: "tel:+18001234567"
-    },
+   
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "info@BuildSmartsolutions.com",
-      link: "mailto:info@BuildSmartsolutions.com"
-    },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: "Address",
-      value: "123 FarmTech Lane, AgriCity, USA",
-      link: "#"
+      value: "info@bs-technology.net",
+      link: "mailto:info@bs-technology.net"
     }
   ];
 
   return (
-    <div className="relative bg-gradient-to-br from-blue-50 to-blue-50 py-24 overflow-hidden">
+    <div className="relative bg-gradient-to-br from-blue-50 to-blue-50 py-24 overflow-hidden" id='contact'>
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full filter blur-3xl" />

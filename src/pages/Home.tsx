@@ -4,14 +4,8 @@ import Analytics from "@/components/sections/Analytics";
 import Success from "@/components/sections/Success";
 import Team from "@/components/sections/Team";
 import Contact from "@/components/sections/Contact";
-import Pricing from "@/components/sections/Pricing";
-import Partners from "@/components/sections/Partners";
-import FAQ from "@/components/sections/FAQ";
-import ProductDemo from "@/components/sections/ProductDemo";
 import Footer from "@/components/layout/Footer";
-import ContactUs from "@/components/sections/Contact";
 import HeroSection from "../components/sections/Hero";
-import ServicesSection from "@/components/sections/Services";
 import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/Cta";
 import AboutUs from "@/components/sections/About";
@@ -27,6 +21,7 @@ import CaseStudies from "@/components/sections/CaseStudy";
 import IndustriesSection from "@/components/sections/Industries";
 import SustainabilitySection from "./Sustainability";
 import PartnershipsSection from "@/components/sections/Partners";
+import GalleryComponent from "@/components/sections/Gallery";
 
 export default function Home() {
   return (
@@ -34,6 +29,7 @@ export default function Home() {
       <HeroSection/>
       <AboutUs/>
       <Features/>
+      <GalleryComponent/>
       <Testimonials/>
       <CTA/>
       <Contact/>

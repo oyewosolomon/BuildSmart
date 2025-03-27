@@ -4,6 +4,17 @@ export default {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      sora: ['Sora', 'sans-serif'],
+      sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+    },
+    fontWeight: {
+      light: '300',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+    },
     extend: {
       animation: {
         'fade-in': 'fadeIn 1s ease-in-out',
